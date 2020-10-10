@@ -54,7 +54,7 @@ const About = () => {
           <Developer developer={developer} />))}
       </Grid>
 
-      <div className={classes.credits}>Icons made by <a href="https://www.flaticon.local/authors/freepik" className={classes.credits} title="Freepik">Freepik</a> from <a href="https://www.flaticon.local/" className={classes.credits}title="Flaticon">www.flaticon.local</a></div>
+      <div className={classes.credits}>Icons made by <a href="https://www.flaticon.local/authors/freepik" className={classes.credits} title="Freepik">Freepik</a> from <a href="https://www.flaticon.local/" className={classes.credits} title="Flaticon">www.flaticon.local</a></div>
 
     </div>
   )
