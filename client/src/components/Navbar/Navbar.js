@@ -167,7 +167,7 @@ const Navbar = () => {
 
           <Typography variant="h5" className={classes.title}>
             <Link className={classes.link} to={path}>
-              Name Bachelorette Party
+              Meg's Bachelorette Party
             </Link>
           </Typography>
 

@@ -524,12 +524,17 @@ const Home = () => {
   // drag & drop functionality
 
   let isDragging = false;
+  
+  let number = 1
 
   // when you click the item
   document.addEventListener('mousedown', function (event) {
 
-    let dragElement = event.target.closest('.draggable');
+    let dragElement = event.target.closest('.draggable').cloneNode(true)
 
+    dragElement.id = "newId"+number
+    number++
+    
     if (!dragElement) return;
 
     event.preventDefault();
